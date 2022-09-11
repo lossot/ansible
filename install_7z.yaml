@@ -1,5 +1,5 @@
 ---
-- host: all
+- hosts: all
   tasks:
    - name: Install 7zip from the exe
      win_package:
