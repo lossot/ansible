@@ -1,1 +1,6 @@
-
+---
+- hosts: all
+  tasks:
+          - name: Vim istall
+            apt: name=vim state=present
+            become: yes
