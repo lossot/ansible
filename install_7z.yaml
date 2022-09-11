@@ -4,6 +4,7 @@
    - name: Install 7zip from the exe
      win_package:
        path: C:\Users\Admin\Downloads\7z2106-x64.exe
+       product_id: 7-Zip
+       arguments: /S     
        creates_path: C:\Program Files\7-Zip\7z.exe
-       creates_version: 21.06
        state: present
