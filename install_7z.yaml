@@ -1,3 +1,4 @@
+---
 - host: all
   tasks:
    - name: Install 7zip from the exe
